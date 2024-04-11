@@ -1,0 +1,176 @@
+/* CSS for header */
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    background-color: #ffffff;
+    color: #110000;
+    padding: 20px 0;
+    border-top: 2px solid rgb(207, 200, 200);
+    border-bottom: 2px solid rgb(207, 200, 200);
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 80px; 
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 200;
+    color: #4a4a4a;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px ;
+    background-color: rgb(243, 249, 255);
+
+}
+
+.nav-bar ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.nav-bar ul li:hover {
+  
+
+  color: blue;
+}
+
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 150px;
+}
+
+.section-1 p{
+  font-size: 27px;
+}
+
+.section-1-des{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.img1 {
+  height: 700px;
+  width: 700px;
+  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+  transform: 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+}
+
+.section-2 {
+
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    margin: 80px;
+    border: 2px solid #dfdada;
+    border-radius: 18px;
+
+  }
+  
+  .most-search {
+    
+    font-size: 25px;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-weight: 900;
+
+  }
+
+  .most-search-nav-bar {
+
+    display: flex;
+    margin: 20px;
+    border-bottom: 1px solid grey;
+
+  }
+  
+  .most-search-nav-bar a {
+
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(146, 135, 135);
+    justify-content: space-between;
+    font-size: 17px;
+
+  }
+  
+  .most-search-nav-bar a:hover {
+
+    color: black;
+    font-size:19px ;
+
+  }
+  
+  
+  
+  .most-s-cars-list {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  
+  .item1, .item2, .item3, .item4 {
+  
+    width: 300px;
+    height: 360px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 17px;
+    justify-content: center;
+    
+  }
+  
+  img {
+    width: 300px;
+    margin-top: 20px;
+    height: 190px;
+  }
+  
+  .des {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+  
+  }
+
+  .btn-offers {
+    border:2px solid orange;
+    background-color: #ffffff;
+    color: rgb(255, 109, 18);
+    font-size: 17px;
+    border-radius: 10px;
+    width: 260px;
+    height: 42px;
+  }
+  
+  .m-s-c-names {
+  
+    font-size: 22px;
+  }
