@@ -23,7 +23,7 @@ header {
 
 .logo {
     margin-left: 80px; 
-    font-size: 55px;
+    font-size: 65px;
     font-weight: 700;
 }
 
@@ -32,10 +32,11 @@ header {
 
 }
 
-.nav-bar ul li {
+.nav-bar ul button {
     display: inline-block;
     margin-right: 20px;
     font-weight: 200;
+    font-size: 19px;
     color: #4a4a4a;
     border: 3px solid rgb(255, 255, 255);
     padding: 10px;
@@ -173,4 +174,183 @@ header {
   .m-s-c-names {
   
     font-size: 22px;
+  }
+
+  .types-of-quiz{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+  }
+
+  .items {
+
+    display: grid;
+    margin: 2rem auto;
+    border: 2px solid rgb(218, 218, 218);
+    transition: all .4s ease-in-out;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px 25px 25px 25px;
+    place-items: center;
+    grid-gap: 10px;
+    margin: 20px;
+    padding: 20px;
+  
+    
+  }
+  
+  .items:hover {
+    transform: scale(1.1);
+  }
+  
+  .items img {
+    width: 5.5rem;
+    place-items: centre;
+  }
+  
+  .items p {
+    font-weight: 400;
+  }
+  
+  
+  .skills {
+    display: grid;
+    justify-items: center;
+    grid-gap: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  
+  }
+  @media (min-width: 1024px) {
+    .skills {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+  
+    }
+  
+  }
+  
+  /* Tablet View: 3 columns */
+  @media (max-width: 1023px) and (min-width: 768px) {
+    .skills {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+  
+    }
+    
+  }
+  
+  /* Mobile View: 2 columns */
+  @media (max-width: 767px) {
+    .skills {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+  
+    }
+   
+  }
+
+
+
+
+
+
+
+  .end-section{
+     background-color:rgb(235, 242, 250);
+     height: 20rem;
+     
+
+  }
+
+  .end-sec-content{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .quizzy-info{
+
+    margin-right: 10px;
+    padding-left: 100px;
+    width: 1000px;
+  }
+
+  .logo2{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+
+  }
+
+  .quizzy-info p{
+    padding-bottom: 30px;
+    color: ffffff;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  
+  .useful-links{
+    margin: 60px;
+    width: 500px;
+    padding-right: 30px;
+  }
+
+  .useful-links ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+
+    list-style: none;
+  }
+
+
+
+  .a {
+    list-style: none;
+    text-decoration: none;
+    color: #858585; /* Add color styling */
+    font-size: 19px;
+
+}
+
+.link-title {
+    font-size: 1.44rem;
+    line-height: 1.30rem;
+    color: rgb(33, 28, 28);
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+/* Remove explicit anchor tag styling within .useful-links ul li */
+.useful-links ul li {
+    font-size: 18px;
+    padding: 3px;
+    padding: 5px;
+}
+
+  .link-title{
+    font-size: 1.44rem;
+    line-height: 1.30rem;
+    color: rgb(33, 28, 28);
+    height: fit-content;
+    padding-bottom: 20px;
+  }
+
+  .copyright{
+
+    height: 5rem;
+    background-color: rgb(214, 217, 253);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
   }
