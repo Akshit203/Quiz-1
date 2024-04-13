@@ -262,6 +262,7 @@ header {
   .end-section{
      background-color:rgb(235, 242, 250);
      height: 20rem;     
+     margin-top: 20px;
   }
 
   .end-sec-content{
