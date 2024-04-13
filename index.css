@@ -261,9 +261,7 @@ header {
 
   .end-section{
      background-color:rgb(235, 242, 250);
-     height: 20rem;
-     
-
+     height: 20rem;     
   }
 
   .end-sec-content{
@@ -284,8 +282,13 @@ header {
   .logo2{
     font-size: 2.1rem;
     font-weight: 500;
-    text-transform: capitalize;
     line-height: 3rem;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: 1px black;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+
 
 
   }
@@ -301,6 +304,7 @@ header {
     margin: 60px;
     width: 500px;
     padding-right: 30px;
+    
   }
 
   .useful-links ul {
@@ -327,6 +331,7 @@ header {
     color: rgb(33, 28, 28);
     height: fit-content;
     padding-bottom: 20px;
+    border-bottom: 5px solid white;
 }
 
 /* Remove explicit anchor tag styling within .useful-links ul li */
@@ -353,4 +358,121 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 25px;
+  }
+
+  
+ /* premium html page  */
+
+  .Premium-header header{
+
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 65px;
+    font-weight: 800;
+  }
+
+  .Premium-content{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .p-c-heading{
+
+    font-size: 40px;
+    font-weight: 700;
+
+  }
+
+  .p-c-heading2{
+    font-size: 30px;
+    margin-top: -30px;
+    color: aqua;
+    
+
+  }
+
+  .pricing{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin-bottom: 5vh;
+    font-size: 22px;
+  }
+
+  
+  .wrapper {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+
+  
+
+  .head_tab {
+    color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .a1, .a2, .a3 {
+    background-color: rgb(233, 235, 255);
+    margin: 10px;
+    justify-content: space-between;
+    height: auto;
+    width: 350px;
+    transition: box-shadow 0.4s ease; 
+  }
+  
+  .a1:hover, .a2:hover, .a3:hover {
+    box-shadow: 0 10px 40px rgba(192, 58, 58, 0.5); 
+  }
+  
+
+  .pricing-des p{
+
+    padding: 15px;
+  }
+
+  .inner-area span{
+
+    color: red;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .features button {
+
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: none;
+    width: 16vw;
+    transition: 0.8s ease; 
+
+  }
+
+  .features li {
+
+    list-style: none;
+    margin: 10px;
+    color: #625d5d;
+    padding: 15px;
+  }
+  .features button:hover{
+    border-radius: 2px;
   }
